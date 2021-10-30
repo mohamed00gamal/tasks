@@ -5,43 +5,44 @@ C=[4 2 -3 ; 7 -7 9 ; 3 -5 6 ];
 D=[6 3 2; 2 12 -7 ; -1 6 2 ; -5 15 11];
 
 %1
-(3*A)-(5*C);
+(3*A)-(5*C)
 %2
-(7*A)+(2*B);
+%%(7*A)+(2*B);
 % Error..matrix dimentions must agree
 %3
-C*A;
+C*A
 %4
-C*D';
+C*D'
 
 
 
 %% Question #2
-zeros(3);
-zeros(2,3);
-ones(4);
-ones(3,4);
-size(D);
-zeros(size(D));
-diag([1 2 3 4]);
-eye(4);
+zeros(3)
+zeros(2,3)
+ones(4)
+ones(3,4)
+size(D)
+zeros(size(D))
+diag([1 2 3 4])
+eye(4)
 
 %% Question #3
-[A,B];
+%[A,B];
 %ERROR.. Dimensions of matrices being concatenated are not consistent..
 %must use horzcat
-[A;B]
+%[A;B]
 %ERROR..Dimensions of matrices being concatenated are not consistent..MUST
 %use vertcat.
 
 
 %%Question #4
+
 z=(diag([5 5 5 5 5 5 5 ]));
 z(1:7,8)=[5 5 5 5 5 5 5]
 
 %%Question #5 
-A(2,:);
+A(2,:)
 
-A(:,3);
+A(:,3)
 
 
